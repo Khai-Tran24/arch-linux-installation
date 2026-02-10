@@ -89,7 +89,7 @@ modprobe dm-mod
 cryptsetup luksFormat -v -s 512 -h sha512 /dev/nvme1n1p3
 
 cryptsetup open /dev/nvme1n1p3 luks_lvm
-``
+```
 
 - Create volume for encryption disk
 
@@ -281,7 +281,7 @@ reboot now
 
 - After reboot, start install [Hyprland](https://wiki.hypr.land/Getting-Started/Installation/) and packages
 
-##References
+## References
 - [Arch Install](https://wiki.archlinux.org/title/Installation_guide)
 - [mkinitcpio](https://wiki.archlinux.org/title/Mkinitcpio#Hook_list)
 - [Dreams of Autonomy](https://www.youtube.com/watch?v=YC7NMbl4goo&t=673s)
