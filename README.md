@@ -11,6 +11,7 @@ gpg --auto-key-locate clear,wkd -v --locate-external-key pierre@archlinux.org
 
 gpg --verify archlinux-2026.02.01-x86_64.iso.sig archlinux-2026.02.01-x86_64.iso
 ```
+
     - If it is good signature then you can start the next process.
 
 ## Step 2: Install Ventoy.
